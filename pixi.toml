@@ -1,0 +1,18 @@
+[workspace]
+authors = ["mone27 <simone.massaro@ugent.be>"]
+channels = ["conda-forge"]
+name = "phenontrode"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.15.2,<3.16"
+polars = ">=2.1.0,<3"
+plotnine = ">=0.15.9,<0.16"
+pyprojroot = ">=0.3.0,<0.4"
+ipykernel = ">=7.4.0,<8"
+ipywidgets = ">=8.1.9,<9"
+pyarrow = ">=26.0.1,<27"
+dvc = ">=3.67.1,<4"
